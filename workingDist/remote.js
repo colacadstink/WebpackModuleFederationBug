@@ -376,7 +376,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/lodash/lodash": () => (loadStrictSingletonVersionCheckFallback("default", "lodash", [0], () => (__webpack_require__.e("vendors-node_modules_lodash_lodash_js").then(() => (() => (__webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js")))))))
+/******/ 			"webpack/sharing/consume/default/lodash/lodash": () => (loadSingletonVersionCheckFallback("default", "lodash", [0], () => (__webpack_require__.e("vendors-node_modules_lodash_lodash_js").then(() => (() => (__webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js")))))))
 /******/ 		};
 /******/ 		var initialConsumes = ["webpack/sharing/consume/default/lodash/lodash"];
 /******/ 		initialConsumes.forEach((id) => {

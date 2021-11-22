@@ -377,7 +377,7 @@ eval("var moduleMap = {\n\t\"./src/index.js\": () => {\n\t\treturn __webpack_req
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/lodash/lodash": () => (loadStrictSingletonVersionCheckFallback("default", "lodash", [0], () => (__webpack_require__.e("vendors-node_modules_lodash_lodash_js").then(() => (() => (__webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js")))))))
+/******/ 			"webpack/sharing/consume/default/lodash/lodash": () => (loadSingletonVersionCheckFallback("default", "lodash", [0], () => (__webpack_require__.e("vendors-node_modules_lodash_lodash_js").then(() => (() => (__webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js")))))))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {

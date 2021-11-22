@@ -19,8 +19,6 @@ module.exports = {
       shared: {
         lodash: {
           singleton: true,
-          strictVersion: true,
-          eager: false,
           requiredVersion: false,
         }
       }
