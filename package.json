@@ -1,0 +1,20 @@
+{
+  "name": "WebpackModuleFederationBug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run goodBuild && npm run badBuild",
+    "goodBuild": "webpack --config webpack.working.config.js",
+    "badBuild": "webpack --config webpack.config.js"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
